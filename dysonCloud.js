@@ -23,6 +23,7 @@ class DysonCloud {
             agentOptions: {
                 rejectUnauthorized: false
             },
+            headers: {'User-Agent': 'Mozilla/5.0'},
             json: true
         }
 
@@ -50,6 +51,7 @@ class DysonCloud {
             agentOptions: {
                 rejectUnauthorized: false
             },
+            headers: {'User-Agent': 'Mozilla/5.0'},
             json: true
         }
 
